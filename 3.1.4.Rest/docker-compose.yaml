@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: 'postgres:latest'
+    ports:
+      - 5432:5432
+    environment:
+      - 'POSTGRES_DB=java'
+      - 'POSTGRES_USER=root'
+      - 'POSTGRES_PASSWORD=8661'

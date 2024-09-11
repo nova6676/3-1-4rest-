@@ -1,0 +1,20 @@
+spring:
+   datasource:
+    url: jdbc:postgresql://localhost:5432/java
+    username: root
+    password: 8661
+   mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+    static-path-pattern: /static/**
+   jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        show_sql: true
+
+
+
+
